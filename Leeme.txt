@@ -1,0 +1,31 @@
+
+Hoja de Ruta para construir "Invasion Alien".
+
+Narrativa: Me imagino una ventana, una nave que representa al jugador
+y que es capaz de moverse a la izquierda y a la derecha.
+
+Objetos: 
+
+ Me imagino que la nave es capaz de "disparar", es decir, objeto "bala"
+
+ Me imagino que hay objetos "alien" que se mueven. 
+
+ Me imagino, que hay objetos "tablero" que estan en la pantalla que 
+ almacenan mi puntaje y mis vidas.
+
+ Imagino que en un primer mmento, hay que pensar los objetos y después,
+las interacciones entre objetos.
+
+Interacciones: -Cuando la "bala" toca un alien, el alien desaparece.
+                además, gano un puntaje que se almacena en la parte 
+                superior de la pantalla.
+               
+               -Cuando la "bala" toca mi nave, pierdo una vida. Eso
+                queda registrado en la parte superior de la pantalla. 
+          
+               -Cuando pierdo todas las vidas, aparece un mensaje que
+                dice "fin del juego".
+
+version pygame que corre:
+
+-m pip install --user pygame-1.9.4-cp36-cp36m-win32.whl
